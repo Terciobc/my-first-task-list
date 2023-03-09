@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Task List</h1>
+
+        <form id="formulario">
+            <input type="text"
+            id="valor"
+            autocomplete="off"
+            placeholder="Digite uma nova tarefa">
+            <input type="submit" value="Adicionar" 
+            id="adicionarTarefa" 
+            onclick="adicionar()">
+        </form>
+        
+    </header>
+
+    <main class="principal">
+        <section>
+            <h2>Lista de Tarefas:</h2>
+            <div id="lista">
+                <!-- <div class="resposta">
+                    <input type="text" 
+                    value ="My shining text" 
+                    class ="text"
+                    readonly>
+    
+                </div>
+                <div id="acoes">
+                    <button class="editar" onclick="editar()">Editar</button>
+                    <button class="deletar" onclick="deletar()">Deletar</button>
+               </div> -->
+
+            </div>
+        </section>
+    </main>
+    
+    <footer class="rodape">
+        <p class="rodape__texto">Tércio Brandão</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
